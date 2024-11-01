@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Pagina Principal */
+
+.header{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.header img{
+    width: 130px;
+    margin: 20px 20px;
+}
+
+.navBar{
+    display: flex;
+    list-style: none;
+    gap: 290px;
+    padding: 35px 20px 0px 100px;
+}
+
+.navBar li a{
+    flex-wrap: nowrap;
+    text-decoration: none;
+    color: black;
+}
+
+
+
+.section-principal{
+    background-color: #81CDC4;
+    display: flex;
+    width: 100%;
+    padding: 60px;
+}
+
+.section-principal div{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 400px;
+    padding: 10px;
+}
+
+.section-principal img{
+    height: 100%;
+    padding: 10px 300px;
+}
+
+.Proyectos-container{
+    text-align: center;
+    padding: 50px;
+}
+
+
+
+.card{
+    width: 250px;
+    height: 300px;
+    margin: 100px 45px;
+}
+
+.card-img{
+    width: 100%;
+    height: 100%;
+}
+
+.card-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.card-contenido{
+    text-align: center;
+}
+
+.card-cointainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.instagram-texto a{
+    text-decoration: none;
+    color: black;
+}
+
+.instagram-baner{
+    background-color: #CC0689;
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.instagram-baner img{
+    margin: 15px 0px 0px -90px;
+}
+
+.instagram-baner h2{
+    margin: -35px 0px 20px -20px;
+}
+
+.instagram-baner h4{
+    margin: -65px 0px 20px -20px;
+}
+
+
+
+.baner-final{
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    margin: 0px 0px 50px 0px;
+}
+
+.baner-final img{
+    margin: 50px 0px 50px 0px;
+}
+
+.baner-final h2{
+    margin: -110px 0px 0px 70px;
+}
+
+.baner-final p{
+    margin: 0px 0px 0px 70px;
+}
+
+
+.final ul{
+    list-style: none;
+}
+
+.final img{
+    width: 20px;
+    margin: 0px 10px 0px 0px;
+}
+
+.final{
+    background-color: #D7D7D7;
+    display: flex;
+    flex-direction: row;
+    gap: 650px;
+    padding: 30px 30px 30px 30px;
+}
+
+.navegacion h4{
+    margin: 0px 0px 20px 10px;
+}
+
+.navegacion li{
+    text-align: center;
+    margin: 0px 0px 10px 10px;
+}
+
+.contactanos h4{
+    margin: 0px 0px 20px 25px;
+}
+
+.contactanos li{
+    margin: 10px 0px 20px -10px;
+}
+
+.contactanos img{
+    margin: 0px 10px -5px 0px;
+}
+
+.redes h4{
+    margin: 0px 10px 20px 0px;
+}
+
+.redes li{
+    margin: 10px 0px 20px -10px;
+}
+
+.redes img{
+    margin: 0px 10px -5px 0px;
+}
+
+
+/* Pagina Productos */
+
